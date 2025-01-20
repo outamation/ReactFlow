@@ -309,26 +309,4 @@ const addEdge = () => {
 };
 ```
 
----
-
-## **7. Events**
-
-React Flow supports a variety of events for user interactions:
-
-- `onNodeClick`: Triggered when a node is clicked.
-- `onEdgeClick`: Triggered when an edge is clicked.
-- `onLoad`: Provides the React Flow instance.
-
-#### **Example: Logging Node Clicks**
-```jsx
-const onNodeClick = (event, node) => {
-  console.log('Node clicked:', node);
-};
-
-<ReactFlow elements={elements} onNodeClick={onNodeClick} />;
-```
-
----
-
-This comprehensive documentation provides the foundational knowledge and examples to get started with React Flow. For additional use cases or specific queries, consult the official React Flow documentation or ask for guidance.
 
